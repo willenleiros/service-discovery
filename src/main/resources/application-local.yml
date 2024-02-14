@@ -10,6 +10,7 @@ eureka:
     hostname: eureka
   server:
     renewal-percent-threshold: 0.85
+    enable-self-preservation: false
   client:
     registerWithEureka: false
     fetchRegistry: false
